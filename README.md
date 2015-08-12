@@ -1,12 +1,14 @@
-# chriswessels/meteor-tupperware
+[![](https://badge.imagelayers.io/joostlaan/meteor-tupperware:latest.svg)](https://imagelayers.io/?images=joostlaan/meteor-tupperware:latest 'Get your own badge on imagelayers.io')
+
+# joostlaan/meteor-tupperware
 
 This is a base Docker image that allows you to bundle your [Meteor.js](https://www.meteor.com) application into a lean, production-ready Docker image that you can deploy across your containerised infrastructure.
 
-[![Docker Repository on Quay.io](https://quay.io/repository/chriswessels/meteor-tupperware/status "Docker Repository on Quay.io")](https://quay.io/repository/chriswessels/meteor-tupperware)
+[![Docker Repository on Docker Hub](https://hub.docker.com/r/joostlaan/meteor-tupperware/ "Docker Repository on Docker Hub")](https://hub.docker.com/r/joostlaan/meteor-tupperware/)
 
 It includes [Node.js](https://nodejs.org/) and your bundled application (with platform-correct native extensions where required by included npm modules). You can also configure meteor-tupperware to install PhantomJS and ImageMagick if these are dependencies of your application.
 
-Please see the [CHANGELOG](https://github.com/chriswessels/meteor-tupperware/blob/master/CHANGELOG.md) for the latest bundled library versions and changes.
+Please see the [CHANGELOG](https://github.com/joostvanderlaan/meteor-tupperware/blob/master/CHANGELOG.md) for the latest bundled library versions and changes.
 
 ## Usage
 
